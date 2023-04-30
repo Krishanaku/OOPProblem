@@ -16,14 +16,19 @@
             //myDog.Bark();
 
             //hierarchical inheritance.........
-            ChildFirst first = new ChildFirst();
-            Console.WriteLine(first.FatherName());
-            Console.WriteLine(first.ChildDName());
+            //ChildFirst first = new ChildFirst();
+            //Console.WriteLine(first.FatherName());
+            //Console.WriteLine(first.ChildDName());
 
-            ChildSecond second = new ChildSecond();
-            Console.WriteLine(first.FatherName());
-            Console.WriteLine(first.ChildDName());
-
+            //ChildSecond second = new ChildSecond();
+            //Console.WriteLine(first.FatherName());
+            //Console.WriteLine(first.ChildDName());
+            //Hybrid Inheritance....................
+            Cylinder obj = new Cylinder();
+            obj.Display();
+            obj.Draw();
+            obj.Fill();
+            Console.ReadKey();
 
 
 
