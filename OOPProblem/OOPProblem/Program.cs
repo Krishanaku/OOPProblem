@@ -24,11 +24,20 @@
             //Console.WriteLine(first.FatherName());
             //Console.WriteLine(first.ChildDName());
             //Hybrid Inheritance....................
-            Cylinder obj = new Cylinder();
-            obj.Display();
-            obj.Draw();
-            obj.Fill();
-            Console.ReadKey();
+            //Cylinder obj = new Cylinder();
+            //obj.Display();
+            //obj.Draw();
+            //obj.Fill();
+            //Console.ReadKey();
+            //Interface..................................................
+            IAnimal myDog = new Dogs();
+            IAnimal myCat = new Cat();
+
+            myDog.MakeSound();  
+            Console.WriteLine(myDog.GetSpecies()); 
+
+            myCat.MakeSound();  
+            Console.WriteLine(myCat.GetSpecies());  
 
 
 
