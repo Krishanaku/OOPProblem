@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace OOPProblem
 {
+    // method is block of code 
+    // it is create to perform particular task 
+    // method is reusable
+    //method is excauted when  it is call
+    //metho is parameterized and non parameterized and return type
     public  class ClassName
     {
         //Non Parameterized 
