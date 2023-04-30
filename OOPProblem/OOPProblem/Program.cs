@@ -41,9 +41,13 @@
             //}
             //
             //Typecasting.....................
-            Typecasting typecasting = new Typecasting();
-            typecasting.TypeImplicit();
-            typecasting.TypeExplicit();
+            //Typecasting typecasting = new Typecasting();
+            //typecasting.TypeImplicit();
+            //typecasting.TypeExplicit();
+
+            //VariableType.................
+            VariableType variableType = new VariableType();
+            variableType.TypeVariable();
         }
     }
 }
