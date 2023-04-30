@@ -21,24 +21,29 @@
             //Console.WriteLine(construct.color + " " + construct.year + " " + construct.model);
 
             //Enum..............................
-            Console.WriteLine(DayOfWeek.Monday);
-            int count = (int)DayOfWeek.Monday;
-            Console.WriteLine(count);
-            //Second enum
-            Colors favoriteColor = Colors.Blue;
-            Console.WriteLine(favoriteColor);
-            switch (favoriteColor)
-            {
-                case Colors.Red:
-                    Console.WriteLine("Your favorite color is red!");
-                    break;
-                case Colors.Green:
-                    Console.WriteLine("Your favorite color is green.");
-                    break;
-                case Colors.Blue:
-                    Console.WriteLine("Your favorite color is blue.");
-                    break;
-            }
+            //Console.WriteLine(DayOfWeek.Monday);
+            //int count = (int)DayOfWeek.Monday;
+            //Console.WriteLine(count);
+            ////Second enum
+            //Colors favoriteColor = Colors.Blue;
+            //Console.WriteLine(favoriteColor);
+            //switch (favoriteColor)
+            //{
+            //    case Colors.Red:
+            //        Console.WriteLine("Your favorite color is red!");
+            //        break;
+            //    case Colors.Green:
+            //        Console.WriteLine("Your favorite color is green.");
+            //        break;
+            //    case Colors.Blue:
+            //        Console.WriteLine("Your favorite color is blue.");
+            //        break;
+            //}
+            //
+            //Typecasting.....................
+            Typecasting typecasting = new Typecasting();
+            typecasting.TypeImplicit();
+            typecasting.TypeExplicit();
         }
     }
 }
