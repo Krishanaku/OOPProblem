@@ -5,15 +5,26 @@
         public static void Main(string[] args)
         {
             //Inheritance.........
-            SuperStar Inheri = new SuperStar();
-            Inheri.Haritik();
-            Inheri.BollyModel();
+            //SuperStar Inheri = new SuperStar();
+            //Inheri.Haritik();
+            //Inheri.BollyModel();
 
             //Multilevel inheritance.....
-            Dog myDog = new Dog();
-            myDog.Eat();
-            myDog.Walk();
-            myDog.Bark();
+            //Dog myDog = new Dog();
+            //myDog.Eat();
+            //myDog.Walk();
+            //myDog.Bark();
+
+            //hierarchical inheritance.........
+            ChildFirst first = new ChildFirst();
+            Console.WriteLine(first.FatherName());
+            Console.WriteLine(first.ChildDName());
+
+            ChildSecond second = new ChildSecond();
+            Console.WriteLine(first.FatherName());
+            Console.WriteLine(first.ChildDName());
+
+
 
 
         }
