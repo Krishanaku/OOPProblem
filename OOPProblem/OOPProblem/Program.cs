@@ -4,50 +4,33 @@
     {
         public static void Main(string[] args)
         {
-            //ClassAndOBject...........................................
-            //Console.WriteLine("OOP Concept Problem.....");
-            ////Method.................................................
-            //ClassName method= new ClassName(); // object
-            //method.sum();
-            //method.sub(56,40);
-            //int multi=method.mul(25, 25);
-            //Console.WriteLine("Multi of two number : "+multi);
-            //Console.ReadLine();
+            
 
-            //Constructor................................
-            //ConstructType construct = new ConstructType("Mustang", "Red", 1969);
-            //ConstructType construct1 = new ConstructType(1001, "Shine");
-            //construct1.DisplayConstructor();
-            //Console.WriteLine(construct.color + " " + construct.year + " " + construct.model);
+            //Value And Reference.......................
+            ValueAndReference obj= new ValueAndReference();
+            obj.valueType(); 
+            //Reference..................................
+            Person person_One= new Person();
+            
+            Person person_Two = person_One; // Creates a reference to person1
+            Console.WriteLine(person_One.Name ="Krrish");
+            Console.WriteLine(person_One.Age = 30);
+            Console.WriteLine(person_Two.Age = 35);
 
-            //Enum..............................
-            //Console.WriteLine(DayOfWeek.Monday);
-            //int count = (int)DayOfWeek.Monday;
-            //Console.WriteLine(count);
-            ////Second enum
-            //Colors favoriteColor = Colors.Blue;
-            //Console.WriteLine(favoriteColor);
-            //switch (favoriteColor)
-            //{
-            //    case Colors.Red:
-            //        Console.WriteLine("Your favorite color is red!");
-            //        break;
-            //    case Colors.Green:
-            //        Console.WriteLine("Your favorite color is green.");
-            //        break;
-            //    case Colors.Blue:
-            //        Console.WriteLine("Your favorite color is blue.");
-            //        break;
-            //}
-            //
-            //Typecasting.....................
-            //Typecasting typecasting = new Typecasting();
-            //typecasting.TypeImplicit();
-            //typecasting.TypeExplicit();
+            // create a new instance of the Person class
+            Person person1 = new Person { Name = "John", Age = 30 };
 
-            //VariableType.................
-            VariableType variableType = new VariableType();
-            variableType.TypeVariable();
+            // assign the reference to the person1 object to person2
+            Person person2 = person1;
+
+            // update the name property of the person2 object
+            person2.Name = "Jane";
+
+            // the name property of the person1 object is also updated
+            Console.WriteLine(person1.Name); // output: Jane
+
+
+
         }
     }
 }
